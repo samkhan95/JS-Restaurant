@@ -1,0 +1,173 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    /* border: 5px solid blue; */
+    margin-right: 10px ;
+    
+}
+.grid-table{
+    padding: 10px;
+    padding-left: 20px;
+    z-index: 20;
+}
+.table{
+    padding-left: 40px;
+    padding: 20px;
+    box-shadow:0.5rem 0.5rem 0 whitesmoke ;
+}
+
+div.foodItem{
+    padding: 10px;
+    box-shadow:0.5rem 0.5rem 0 whitesmoke ;
+
+}
+h4{
+    text-align: center;
+}
+.search{
+    
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center ;
+    justify-content: space-between;
+    box-shadow: 0.5rem 0.5rem 0 whitesmoke;
+    margin-bottom: 20px;
+    width: 90%;
+
+
+
+}
+.clear{
+    font-size: 25px;
+    cursor: pointer;
+    padding-right: 10px;
+    text-align: center;
+    
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding: 20px;
+    overflow: scroll;
+}
+.searchMenu{
+    display: inline-flex;
+    top:0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    justify-content: space-between;
+    width: 50%;;
+    box-shadow: 0.5rem 0.5rem 0 whitesmoke;
+
+}
+
+
+
+.grid-menu{
+    border-left: 4px solid black;
+    padding: 10px;
+    padding-left: 90px;
+    z-index: 20;
+}
+.modal{
+    display: block;
+    background-color:white ;
+    position: fixed;
+    top:40%;
+    left:60%;
+    max-width: 100%;
+    width: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    display: none;
+
+}
+.modal-Header{
+    background-color: blue;
+}
+#mBody{
+    background-color: aqua;
+}
+.table:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+#mTable{
+    padding: 0px 20px 20px 20px;
+    margin-left: 10px;
+}
+th{
+    padding: 10px;
+}
+#hTitle{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.title-content{
+    color: white;
+}
+.close{
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+.GModal{
+    display: inline-block;
+    background-color: bisque;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 100%;
+    width:300px;
+    height: 300px;
+    z-index: 100;
+    display: none;
+}
+input{
+    width: 50%;
+}
+button{
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 20px;
+    
+}
+.delete{
+    background-color: whitesmoke;
+    cursor: pointer;
+    padding: 5px;
+    color: blue;
+
+}
+.delete:hover{
+    background-color: antiquewhite;
+}
+
+.gHead{
+    display: flex;
+    background-color: blue;
+    color:aliceblue;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#gBody{
+    color: green;
+    padding: 15px;
+}
+.close1{
+    border: none;
+    background-color: blue;
+    font-size: 2rem;
+    color: aliceblue;
+    cursor: pointer;
+}
